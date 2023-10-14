@@ -1,0 +1,73 @@
+.boxes {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+
+.box {
+  height: 70px;
+  /* width: 70px; */
+  border: solid 1px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-grow: 1;
+  flex-basis: 70px;
+
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.outline {
+  height: 70px;
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-grow: 1;
+  flex-basis: 70px;
+
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.box:hover,
+.outline:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  /* background: #000; */
+  transition: all 0.3s ease-in;
+}
+
+.textNum {
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: end;
+}
+.error {
+  /* background: #000; */
+  color: red;
+  font-weight: bold;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .boxes {
+    width: 90vw;
+  }
+  .box,
+  .outline {
+    flex-basis: 50px;
+  }
+}

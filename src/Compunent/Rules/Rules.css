@@ -1,0 +1,19 @@
+.rules {
+  min-height: 200px;
+
+  width: 500px;
+  background: #ffd5d5c2;
+  padding: 20px;
+}
+h3 {
+  margin: 10px 0;
+}
+
+.rules li {
+  list-style: none;
+}
+@media (max-width: 500px) {
+  .rules {
+    width: 100%;
+  }
+}

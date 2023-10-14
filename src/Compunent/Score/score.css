@@ -1,0 +1,16 @@
+.score {
+  width: 100px;
+  /* border: solid cadetblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 3px rgb(173, 172, 172, 0.3),
+    inset 3px 3px 2px rgb(173, 172, 172, 0.3);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+h1 {
+  all: unset;
+  /* font-weight: bold; */
+  font-size: 50px;
+}
